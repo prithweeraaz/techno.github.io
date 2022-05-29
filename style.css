@@ -1,0 +1,57 @@
+
+
+html{
+    scroll-behavior:smooth;
+}
+
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+}
+
+body{
+    overflow-x:hidden;
+}
+h1{
+      font-family: 'Cedarville Cursive', cursive;
+    font-family: 'Dancing Script', cursive;
+}
+
+.carousel-item img{
+    width:100%;
+    height:80vh;
+}
+
+.card-body img{
+    min-width:40%;
+    max-height:200px;
+}
+.card1{
+    width: 18rem;
+}
+/* /////////////meadia quary start//////////////// */
+
+@media(max-width:991px){
+    .card1{
+        width:13rem;
+    }
+    .out_team{
+        margin-top:auto;
+    }
+    .card-3{
+        font-size:16px;
+        font-weight:bold;
+    }
+}
+
+@media(max-width:767px)
+{
+    .about_img img{
+        margin-top:30px;
+    }
+    .services_2ndcard{
+        margin:20px;
+    }
+}
+/* /////////////meadia quary end//////////////// */
